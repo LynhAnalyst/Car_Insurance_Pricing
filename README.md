@@ -1,21 +1,16 @@
-### 1. Thu thập Dữ liệu:
-#### Dữ liệu Khách hàng: Gồm thông tin về khách hàng như độ tuổi, giới tính, lịch sử lái xe, v.v.
-#### Dữ liệu Xe: Thông tin về loại xe, độ tuổi của xe, giá trị thực tế, v.v.
-#### Lịch sử Bảo hiểm: Thông tin về các chính sách bảo hiểm trước đó và các yếu tố liên quan.
+### 1. Thu thập dữ liệu:
+#### Chuẩn bị dữ liệu về khách hàng, xe, bảo hiểm chuẩn bị cho việc huấn luyện mô hình.
 
-### 2. Xử lý Dữ liệu:
-#### Xử lý các giá trị Null.
-#### Chuyển đổi Dữ liệu: Chuyển đổi dữ liệu thành định dạng phù hợp cho mô hình máy học.
-
-### 3. Chia Dữ liệu:
-#### Chia dữ liệu thành tập huấn luyện và tập kiểm tra để đánh giá hiệu suất của mô hình.
+### 2. Xử lý dữ liệu:
+#### Xử lý các giá trị null.
+#### Chuẩn hóa dữ liệu.
 
 ### 4. Xây dựng Mô hình:
-#### Chọn một loại mô hình máy học phù hợp, chẳng hạn như hồi quy tuyến tính, cây quyết định, hoặc mạng nơ-ron.
-#### Huấn luyện mô hình trên tập huấn luyện và đánh giá hiệu suất trên tập kiểm tra.
+#### Chia dữ liệu thành tập huấn luyện và tập kiểm tra.
+#### Chọn loại mô hình học máy phù hợp.
 
-### 5. Đánh giá và Kiểm thử Mô hình:
-#### Sử dụng các phương pháp đánh giá như Mean Squared Error (MSE) hoặc Root Mean Squared Error (RMSE) để đánh giá hiệu suất của mô hình trên tập kiểm tra.
+### 5. Đánh giá và kiểm thử Mmô hình:
+#### Sử dụng các phương pháp đánh giá nhằm kiểm tra độ chính xác và độ tin cậy của mô hình.
 
-### 6. Triển khai Mô hình:
-#### Triển khai mô hình vào môi trường sản xuất và tích hợp nó vào hệ thống định giá bảo hiểm.
+### 6. Triển khai mô hình:
+#### Mô hình đã được huấn luyện và đánh giá sẽ được sử dụng để dự đoán giá bảo hiểm cho khách hàng mới dựa trên các thông tin được cung cấp.
