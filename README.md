@@ -15,5 +15,5 @@ The project aims to build a model to predict auto insurance prices based on fact
 ## Usage
 * Python: The main language used for data processing and model building.
 * Pandas, NumPy: Data processing and analysis library.
-* K-Means, KNN, LN,... : Libraries used to build and train machine learning models.
+* K-Means, KNN, LN,...: Libraries used to build and train machine learning models.
 * Matplotlib, Seaborn: Data visualization library.
